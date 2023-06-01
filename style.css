@@ -1,0 +1,1822 @@
+/**navigation bar**/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    position: relative;
+
+}
+
+.navigation {
+    border: 1px solid rgb(247, 238, 226);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(247, 238, 226, 0.783);
+}
+
+.bar li {
+    list-style: none;
+    display: inline-block;
+    top: 20px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 40px;
+}
+
+body {
+    background-color: rgb(247, 238, 226);
+}
+
+.center {
+    position: absolute;
+    right: 670px;
+    top: 30px;
+    font-size: 20px;
+}
+
+.underline {
+    height: 2px;
+    width: 2px;
+    background-color: rgb(76, 217, 76);
+    transition: 1s;
+    visibility: hidden;
+}
+
+.help:hover .underline {
+    width: 68px;
+    visibility: visible;
+}
+
+.blog {
+    position: absolute;
+    right: 820px;
+    top: 30px;
+    font-size: 20px;
+}
+
+.alisha {
+    height: 2px;
+    width: 2px;
+    background-color: rgb(76, 217, 76);
+    transition: 1s;
+    visibility: hidden;
+}
+
+.login:hover .alisha {
+    width: 60px;
+    visibility: visible;
+}
+
+.whatsapp {
+    position: absolute;
+    right: 48%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.thapa {
+    height: 2px;
+    width: 2px;
+    background-color: rgb(76, 217, 76);
+    transition: 1s;
+    visibility: hidden;
+
+}
+
+.whatsapp:hover .thapa {
+    width: 92px;
+    visibility: visible;
+}
+
+.login {
+    position: absolute;
+    right: 55%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.upon {
+    height: 2px;
+    width: 2px;
+    background-color: rgb(76, 217, 76);
+    transition: 1s;
+    visibility: hidden;
+
+}
+
+.blog {
+    position: absolute;
+    right: 44%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.blog:hover .upon {
+    width: 38px;
+    visibility: visible;
+}
+
+.help {
+    position: absolute;
+    right: 60%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.down {
+    height: 2px;
+    width: 2px;
+    background-color: rgb(76, 217, 76);
+    transition: 1s;
+    visibility: hidden;
+}
+
+.center {
+    position: absolute;
+    right: 36%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.center:hover .down {
+    width: 103px;
+    visibility: visible;
+}
+
+.web {
+    position: absolute;
+    right: 12%;
+    font-size: 20px;
+    top: 30px;
+}
+
+.decor {
+    height: 2px;
+    width: 2px;
+    background-color: rgb(76, 217, 76);
+    transition: 1s;
+    visibility: hidden;
+}
+
+.web {
+    position: absolute;
+    right: 13%;
+    top: 30px;
+    font-size: 20px;
+}
+
+.web:hover .decor {
+    width: 120px;
+    visibility: visible;
+}
+
+.buttons {
+    position: absolute;
+    right: 30px;
+    font-size: 16px;
+    height: 50px;
+    width: 160px;
+    top: 10px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: rgb(76, 217, 76);
+
+
+
+}
+
+.buttons:hover {
+    background-color: black;
+    color: white;
+    animation-name: anime;
+    animation-duration: 1s;
+}
+
+@keyframes anime {
+    from {
+        background-color: rgb(76, 217, 76);
+        color: white;
+    }
+
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+
+/**div1 picture**/
+.picture {
+    position: relative;
+}
+
+.image {
+    height: 800px;
+    width: 97%;
+    margin-left: 25px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.roar {
+    position: absolute;
+    bottom: 400px;
+    left: 400px;
+    color: white;
+    font-size: 75px;
+
+}
+
+.deal {
+    position: absolute;
+    bottom: 320px;
+    left: 400px;
+    color: white;
+    font-size: 18px;
+}
+
+.download {
+    position: absolute;
+    right: 64%;
+    top: 70%;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    border: 1px solid rgb(76, 217, 76);
+    font-size: 15px;
+    background-color: rgb(61, 215, 61);
+}
+
+.download:hover {
+    background-color: white;
+    border: 1px solid white;
+    animation-name: alisha;
+    animation-duration: 1s;
+}
+
+@keyframes alisha {
+    from {
+        background-color: rgb(76, 217, 76);
+        color: black;
+    }
+
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+.pictures {
+    position: absolute;
+    left: 52%;
+    top: 180px;
+}
+
+.heart {
+    position: absolute;
+    left: 52%;
+    top: 200px;
+}
+
+.cup {
+    position: absolute;
+    left: 53%;
+    top: 230px;
+    width: 350px;
+    height: 95px;
+}
+
+.voice {
+    position: absolute;
+    left: 52%;
+    top: 330px;
+    width: 430px;
+    height: 60px;
+}
+
+.popup {
+    position: absolute;
+    left: 52%;
+    top: 400px;
+    width: 400px;
+    height: 230px;
+}
+
+.message {
+    position: absolute;
+    left: 52%;
+    top: 650px;
+    height: 60px;
+    width: 420px;
+}
+
+.emotion {
+    position: absolute;
+    left: 52%;
+    top: 610px;
+}
+
+@keyframes pic {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.pictures {
+    opacity: 0;
+    animation: pic 1s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes heart {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translate(1px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+
+    }
+}
+
+.heart {
+    opacity: 0;
+    animation: heart 0.8s forwards;
+    animation-delay: 1s;
+}
+
+.cup {
+    opacity: 0;
+    animation: cup 1s forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes cup {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.voice {
+    opacity: 0;
+    animation: voice 1s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes voice {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.popup {
+    opacity: 0;
+    animation: popup 1s forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.emotion {
+    opacity: 0;
+    animation: emotion 1s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes emotion {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translate(1px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.message {
+    opacity: 0;
+    animation: message 1s forwards;
+    animation-delay: 3.5s;
+}
+
+@keyframes message {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+/**div2 popups**/
+.popups {
+    position: relative;
+}
+
+.graphs {
+    position: absolute;
+    left: 82%;
+    font-size: 12px;
+    color: rgb(93, 93, 93);
+}
+
+.pop {
+    position: absolute;
+    height: 250px;
+    width: 80%;
+    left: 160px;
+    top: 60px;
+}
+
+.pop {
+    opacity: 0;
+    animation: pop 1s forwards;
+    animation-delay: 4.5s;
+}
+
+@keyframes pop {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.headings {
+    position: absolute;
+    top: 320px;
+    left: 440px;
+    font-size: 42px;
+}
+
+.headings {
+    opacity: 0;
+    animation: headings 1s forwards;
+    animation-delay: 5s;
+}
+
+@keyframes headings {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.animation {
+    position: absolute;
+    height: 290px;
+    width: 80%;
+    left: 160px;
+    top: 550px;
+}
+
+.animation {
+    opacity: 0;
+    animation: animation 1s forwards;
+    animation-delay: 5.5s;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+/**div3 nature**/
+.nature {
+    position: relative;
+}
+
+.natural {
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+    font-size: 65px;
+}
+
+.h5 {
+    position: absolute;
+    top: 1340px;
+    left: 400px;
+    font-size: 20px;
+}
+
+.href {
+    position: absolute;
+    top: 1470px;
+    left: 400px;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline rgb(90, 148, 2);
+}
+
+.href:hover {
+    color: rgb(94, 155, 3);
+}
+
+.videocall {
+    position: absolute;
+    top: 900px;
+    left: 1000px;
+    height: 700px;
+    width: 350px;
+    opacity: 0;
+    animation: videocall 1s forwards;
+    animation-delay: 6s;
+}
+
+@keyframes videocall {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.natural {
+    opacity: 0;
+    animation: natural 1s forwards;
+    animation-delay: 6.2s;
+}
+
+@keyframes natural {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.h5 {
+    opacity: 0;
+    animation: h5 1s forwards;
+    animation-delay: 6.2s;
+}
+
+@keyframes h5 {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.href {
+    opacity: 0;
+    animation: href 1s forwards;
+    animation-delay: 6.2s;
+}
+
+@keyframes href {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.moment {
+    position: relative;
+    background-color: rgb(0, 21, 19);
+    margin-top: 1650px;
+    height: 800px;
+}
+
+.moment {
+    opacity: 0;
+    animation: moment 1s forwards;
+    animation-delay: 6.5s;
+}
+
+@keyframes moment {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.anika {
+    position: absolute;
+    height: 80%;
+    top: 85px;
+    left: 230px;
+}
+
+.speak {
+    position: absolute;
+    color: white;
+    left: 55%;
+    font-size: 5em;
+    top: 30%;
+}
+
+.freely {
+    position: absolute;
+    color: rgb(2, 186, 2);
+    left: 55%;
+    font-size: 5em;
+    top: 40%;
+}
+
+.tool {
+    position: absolute;
+    color: white;
+    left: 55%;
+    top: 52%
+}
+
+.attribute {
+    position: absolute;
+    color: white;
+    text-decoration: underline rgb(0, 217, 0);
+    left: 55%;
+    top: 65%;
+    font-size: 20px;
+}
+
+.attribute:hover {
+    color: rgb(0, 217, 0);
+}
+
+.anika {
+    opacity: 0;
+    animation: anika 1s forwards;
+    animation-delay: 6.9s;
+}
+
+@keyframes anika {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.speak {
+    opacity: 0;
+    animation: speak 1s forwards;
+    animation-delay: 7s;
+}
+
+@keyframes speak {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.freely {
+    opacity: 0;
+    animation: freely 1s forwards;
+    animation-delay: 7.1s;
+}
+
+@keyframes freely {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.tool {
+    opacity: 0;
+    animation: tool 1s forwards;
+    animation-delay: 7.2s;
+}
+
+@keyframes tool {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.attribute {
+    opacity: 0;
+    animation: attribute 1s forwards;
+    animation-delay: 7.2s;
+}
+
+@keyframes attribute {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.keep {
+    position: absolute;
+    left: 350px;
+    bottom: -400px;
+    font-size: 4em;
+}
+.keep{
+    opacity: 0;
+    animation: keep 1s forwards;
+    animation-delay: 7.5s;
+}
+
+@keyframes keep {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.outing {
+    position: absolute;
+    bottom: -500px;
+    left: 350px;
+    font-size: 20px;
+}
+.outing {
+    opacity: 0;
+    animation: speak 1s forwards;
+    animation-delay: 7.5s;
+}
+
+@keyframes outing {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+.groups {
+    position: absolute;
+    bottom: -550px;
+    left: 350px;
+    font-size: 20px;
+    text-decoration: underline rgb(8, 184, 8);
+    color: black;
+}
+
+.groups:hover {
+    color: rgb(8, 184, 8);
+}
+.groups{
+    opacity: 0;
+    animation: groups 1s forwards;
+    animation-delay: 7.6s;
+}
+
+@keyframes groups {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.best {
+    position: absolute;
+    bottom: -700px;
+    left: 60%;
+    height: 20%;
+}
+.best {
+    opacity: 0;
+    animation: best 1s forwards;
+    animation-delay: 7.8s;
+}
+
+@keyframes best {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.soon {
+    position: absolute;
+    bottom: -600px;
+    left: 58%;
+    height: 14%;
+}
+.soon {
+    opacity: 0;
+    animation: soon 1s forwards;
+    animation-delay: 7.9s;
+}
+
+@keyframes soon {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+.women {
+    position: absolute;
+    bottom: -1500px;
+    left: 20%;
+    height: 20%;
+}
+.women {
+    opacity: 0;
+    animation: women 1s forwards;
+    animation-delay: 8.2s;
+}
+
+@keyframes women {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.pout {
+    position: absolute;
+    bottom: -1300px;
+    left: 20%;
+    height: 9%;
+}
+.pout {
+    opacity: 0;
+    animation: pout 1s forwards;
+    animation-delay: 8.3s;
+}
+
+@keyframes pout {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.express {
+    position: absolute;
+    bottom: -1700px;
+    left: 60%;
+    height: 20%;
+    font-size: 4em;
+}
+.express {
+    opacity: 0;
+    animation: express 1s forwards;
+    animation-delay: 8.4s;
+}
+
+@keyframes express {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.without {
+    position: absolute;
+    bottom: -1880px;
+    left: 60%;
+    height: 20%;
+    font-size: 20px;
+
+}
+.without {
+    opacity: 0;
+    animation: without 1s forwards;
+    animation-delay: 8.4s;
+}
+
+@keyframes without {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.more {
+    position: absolute;
+    bottom: -2000px;
+    left: 60%;
+    height: 20%;
+    font-size: 20px;
+    text-decoration: underline rgb(0, 174, 0);
+    color: black;
+}
+
+.more:hover {
+    color: rgb(0, 174, 0);
+}
+.more {
+    opacity: 0;
+    animation: more 1s forwards;
+    animation-delay: 8.4s;
+}
+
+@keyframes more {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.basket {
+    position: absolute;
+    bottom: -2000px;
+    left: 22%;
+    font-size: 4em;
+}
+.basket{
+    opacity: 0;
+    animation: basket 1s forwards;
+    animation-delay: 9s;
+}
+
+@keyframes basket {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.global {
+    position: absolute;
+    bottom: -2100px;
+    left: 22%;
+    font-size: 20px;
+}
+.global {
+    opacity: 0;
+    animation: global 1s forwards;
+    animation-delay: 9.2s;
+}
+
+@keyframes global {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.buisness {
+    position: absolute;
+    bottom: -2150px;
+    left: 22%;
+    font-size: 20px;
+    text-decoration: underline rgb(4, 180, 4);
+    color: black;
+}
+
+.buisness:hover {
+    color: rgb(4, 180, 4);
+}
+.buisness {
+    opacity: 0;
+    animation: speak 1s forwards;
+    animation-delay: 9.3s;
+}
+
+@keyframes buisness {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+.jiomart {
+    position: absolute;
+    bottom: -2300px;
+    left: 60%;
+    height: 20%;
+    text-decoration: underline rgb(4, 180, 4);
+    color: black;
+}
+.jiomart {
+    opacity: 0;
+    animation: jiomart 1s forwards;
+    animation-delay: 9.5s;
+}
+
+@keyframes jiomart {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.mart {
+    position: absolute;
+    background-color: rgba(134, 230, 134, 0.255);
+    bottom: -3050px;
+    width: 100%;
+    height: 20%;
+    border-radius: 30px;
+}
+.mart {
+    opacity: 0;
+    animation: mart 1s forwards;
+    animation-delay: 9.9s;
+}
+
+@keyframes mart {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.floral {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    font-size: 3em;
+}
+.flex {
+    position: absolute;
+    top: 75%;
+    left: 19%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.642);
+    background-color: rgba(134, 230, 134, 0.153);
+}
+
+.flexs {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    color: rgba(0, 0, 0, 0.391);
+    background-color: rgba(134, 230, 134, 0.153);
+
+}
+
+.flex:hover {
+    background-color: black;
+    color: white;
+    animation-name: flex;
+    animation-duration: 1s;
+}
+
+@keyframes flex {
+    from {
+        background-color: rgba(134, 230, 134, 0.255);
+        color: white;
+    }
+
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+
+.math {
+    position: absolute;
+    border: 1px solid white;
+    height: 380px;
+    width: 550px;
+    left: 50%;
+    top: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.awesome {
+    position: absolute;
+    left: 52%;
+    top: 200px;
+}
+
+.russia {
+    position: absolute;
+    left: 52%;
+    top: 250px;
+    font-size: 35px;
+}
+
+.florida {
+    position: absolute;
+    left: 52%;
+    top: 350px;
+    font-size: 15px;
+}
+
+.washing {
+    position: absolute;
+    left: 52%;
+    top: 450px;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.washing:hover {
+    color: white;
+    background-color: black;
+    animation-name: washing;
+    animation-duration: 1s;
+}
+
+@keyframes washing {
+    from {
+        background-color: white;
+        color: white;
+    }
+
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+
+.team {
+    position: absolute;
+    background-color: rgb(0, 21, 19);
+    ;
+    border: 1px solid black;
+    height: 580px;
+    width: 100%;
+    bottom: -3600px;
+    border-radius: 10px;
+}
+.team {
+    opacity: 0;
+    animation: team 1s forwards;
+    animation-delay: 10.5s;
+}
+
+@keyframes team {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform: translate(0px);
+    }
+}
+
+.nostal {
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+
+.drone {
+    position: absolute;
+    left: 230px;
+    top: 280px;
+    height: 60px;
+    width: 185px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: rgb(0, 199, 0);
+}
+
+.drone:hover {
+    background-color: white;
+    animation-name: drone;
+    animation-duration: 1.5s;
+}
+
+@keyframes drone {
+    from {
+        background-color: rgb(0, 199, 0);
+        color: black;
+    }
+
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+.orderlist2 {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 115px;
+    list-style: none;
+}
+
+.eng {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 155px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.eng:hover {
+    text-decoration: underline 1px;
+}
+
+.comp {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.comp:hover {
+    text-decoration: underline 1px;
+}
+
+.hnd {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.hnd:hover {
+    text-decoration: underline 1px;
+}
+
+.normal {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.normal:hover {
+    text-decoration: underline 1px;
+}
+
+.orderlist3 {
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 115px;
+    list-style: none;
+}
+
+.engl {
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 155px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.engl:hover {
+    text-decoration: underline 1px;
+}
+
+.compu {
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.compu:hover {
+    text-decoration: underline 1px;
+}
+
+.hind {
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.hind:hover {
+    text-decoration: underline 1px;
+}
+
+.normally {
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.normally:hover {
+    text-decoration: underline 1px;
+}
+
+.orderlist4 {
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 115px;
+    list-style: none;
+}
+
+.engli {
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 155px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.engli:hover {
+    text-decoration: underline 1px;
+}
+.hindi{
+    color:white;
+    position: absolute;
+    left:900px;
+    top:200px;
+    font-size: 20px;
+    list-style: none;
+}
+.hindi:hover{
+    text-decoration: underline 1px;
+}
+.comput{
+    color:white;
+    position: absolute;
+    left:900px;
+    top:250px;
+    font-size: 20px;
+    list-style: none;
+}
+.comput:hover{
+    text-decoration: underline 1px;
+}
+.normalise{
+    color:white;
+    position: absolute;
+    left:900px;
+    top:300px;
+    font-size: 20px;
+    list-style: none;
+}
+.normalise:hover{
+    text-decoration: underline 1px;
+}
+.orderlist5 {
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 115px;
+    list-style: none;
+}
+.english{
+    color:white;
+    position: absolute;
+    left:1100px;
+    top:155px;
+    font-size: 20px;
+    list-style: none;
+}
+.english:hover{
+    text-decoration: underline 1px;
+}
+.computer{
+    color:white;
+    position: absolute;
+    left:1100px;
+    top:200px;
+    font-size: 20px;
+    list-style: none;
+}
+.computer:hover{
+    text-decoration: underline 1px;
+}
+.hands{
+    color:white;
+    position: absolute;
+    left:1100px;
+    top:250px;
+    font-size: 20px;
+    list-style: none;
+}
+.hands:hover{
+    text-decoration: underline 1px;
+}
+.norbbling{
+    color:white;
+    position: absolute;
+    left:1100px;
+    top:300px;
+    font-size: 20px;
+    list-style: none;
+}
+.norbbling:hover{
+    text-decoration: underline 1px;
+}
+hr{
+    position: absolute;
+    top:430px;
+    width:70%;
+    left:200px;
+    border:0.1px solid rgba(2, 173, 2, 0.29);
+}
+.ostrich{
+    position: absolute;
+    color:white;
+    top:490px;
+    left:230px;
+    font-size: 15px;
+}
+.ostriches{
+    position: absolute;
+    color:white;
+    top:490px;
+    left:420px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#twitter{
+    position: absolute;
+    left:40.3%;
+    top:85.8%;
+    z-index: 1;
+}
+.brother{
+    position:absolute;
+    border:1px solid white;
+    height:50px;
+    width:50px;
+    left:39%;
+    top:81%;
+    border-radius: 50%;
+}
+.brother:hover{
+    background-color: rgba(1, 122, 1, 0.782);
+    animation-name: brother;
+    animation-duration: 0.5s;
+}
+@keyframes brother{
+    from {
+        background-color: rgb(0, 21, 19);
+        color: white;
+    }
+
+    to {
+        background-color: rgba(1, 122, 1, 0.782);
+        color:black;
+    }
+}
+#youtube{
+    position: absolute;
+    left:47.3%;
+    top:85.5%;
+    z-index: 1;
+    height: 5px;
+}
+.brothers{
+    position:absolute;
+    border:1px solid white;
+    height:50px;
+    width:50px;
+    left:46%;
+    top:81%;
+    border-radius: 50%;
+}
+.brothers:hover{
+    background-color: rgba(1, 122, 1, 0.782);
+    animation-name: brothers;
+    animation-duration: 0.5s;
+}
+@keyframes brothers{
+    from {
+        background-color: rgb(0, 21, 19);
+        color: white;
+    }
+
+    to {
+        background-color: rgba(1, 122, 1, 0.782);
+        color:black;
+    }
+}
+#instagram{
+    position: absolute;
+    left:54.3%;
+    top: 85.7%;
+    z-index: 1;
+    height: 5px;
+}
+.sis{
+    position:absolute;
+    border:1px solid white;
+    height:50px;
+    width:50px;
+    left:53%;
+    top:81.2%;
+    border-radius: 50%;}
+
+    .sis:hover{
+    background-color: rgba(1, 122, 1, 0.782);
+    animation-name: sis;
+    animation-duration: 0.5s;
+}
+@keyframes sis{
+    from {
+        background-color: rgb(0, 21, 19);
+        color: white;
+    }
+
+    to {
+        background-color: rgba(1, 122, 1, 0.782);
+        color:black;
+    }
+}
+#facebook{
+    position: absolute;
+    left:61.4%;
+    top: 85.7%;
+    z-index: 1;
+    height: 5px;
+}
+.friends{
+    position:absolute;
+    border:1px solid white;
+    height:50px;
+    width:50px;
+    left:60%;
+    top:81.2%;
+    border-radius: 50%;}
+
+    .friends:hover{
+    background-color: rgba(1, 122, 1, 0.782);
+    animation-name: sis;
+    animation-duration: 0.5s;
+}
+@keyframes friends{
+    from {
+        background-color: rgb(0, 21, 19);
+        color: white;
+    }
+
+    to {
+        background-color: rgba(1, 122, 1, 0.782);
+        color:black;
+    }
+}
+select{
+    position: absolute;
+    left:70%;
+    top:81.5%;
+    height:50px;
+    width:200px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color:  rgb(0, 21, 19);
+    color:white;
+}
